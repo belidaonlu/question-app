@@ -1,6 +1,6 @@
 ### QUESTION APP
 ## Canli site linki:
-
+https://earnest-pie-1eee3e.netlify.app/
 
 ## Uygulamanın Özellikleri:
 
