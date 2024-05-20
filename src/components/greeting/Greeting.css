@@ -1,0 +1,33 @@
+/* GREETING */
+.greeting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    color: #1A4D2E;
+    gap: 30px;
+}
+  
+.greeting h1 {
+    color: #E8DFCA;
+    margin-top: 20vh;
+    font-size: 50px;
+}
+  
+.greeting button {
+    color: #F5EFE6;
+    background-color: #1A4D2E;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+}
+  
+.greeting button:hover {
+    border: 3px solid #4F6F52;
+}

@@ -1,0 +1,73 @@
+/* INFO */
+.info {
+    width: 100%;
+}
+  
+.wait {
+    background-color: #E8DFCA;
+    width: 100%;
+    margin: 15px 15px;
+    height: 6vh;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #4F6F52;
+    /* display: none; */
+}
+  
+.wait.hidden {
+    display: none;
+}
+  
+.answer {
+    background-color: #4F6F52;
+    width: 100%;
+    margin: 15px 15px;
+    height: 6vh;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F5EFE6;
+}
+  
+.answer.hidden {
+    display: none;
+}
+  
+.compete {
+    background-color: #1A4D2E;
+    width: 100%;
+    margin: 15px 15px;
+    height: 6vh;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:  #F5EFE6;
+}
+  
+.compete.hidden {
+    display: none;
+}
+  
+.loader {
+    width: fit-content;
+    margin: 15px 15px;
+    font-size: 14px;
+    background: linear-gradient(currentColor 0 0) 0 100%/0% 3px no-repeat;
+    animation: l2 10s linear infinite;
+}
+  
+.loader:before {
+    content:"Lutfen Bekle..."
+}
+  
+@keyframes l2 {to{background-size: 100% 5px}}

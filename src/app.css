@@ -1,0 +1,51 @@
+/* GENERAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+body {
+  background-image: linear-gradient(#1A4D2E, #E8DFCA);
+  height: 100vh; 
+}
+
+/* APP */
+header h1 {
+  color: #F5EFE6;
+  margin: 3vh 0 2vh 0;
+  font-size: 20px;
+}
+
+.app {
+  /* margin: auto; */
+  /* margin-top: 2vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD */
+.card {
+  margin: auto;
+  width: 50%;
+  height: auto;
+  /* border: 1px solid white; */
+  border-radius: 15px;
+  /* padding: 10px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
