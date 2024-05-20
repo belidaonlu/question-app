@@ -6,7 +6,7 @@ https://earnest-pie-1eee3e.netlify.app/
 
 Kullanıcıya çeşitli sorular soran bir quiz uygulamasında, kullanıcı sorulara belirli bir süre içinde cevap vermelidir.
 
-## Bileşenler:
+## Componentler:
 
 Greeting Component: Question App başlamadan önce kullanıcıya karşılama ekranı gösterir.
 
@@ -19,12 +19,12 @@ Footer Component: O anki soru numarasını ve toplam soru sayısını gösterir.
 Toast Component: Test tamamlandığında sonuçları gösterir ve testi yeniden başlatma seçeneği sunar.
 
 ## Uygulamanın İşleyişi:
-Quiz Başlangıcı: Kullanıcı, karşılama ekranında "Start Quiz" butonuna tıkladığında quiz başlar.
+Test Başlangıcı: Kullanıcı, karşılama ekranında "Teste basla" butonuna tıkladığında test başlar.
 
-Süre Yönetimi: Her soru için belirli bir süre vardır (örneğin, 30 saniye). Kullanıcı seçenekleri ancak belirli bir süre geçtikten sonra seçebilir.
+Süre Yönetimi: Her soru için belirli bir süre vardır (30 sn). Kullanıcı seçenekleri ancak belirli bir süre geçtikten sonra (10 sn) seçebilir.
 
-Soru Geçişleri: Kullanıcı doğru veya yanlış cevabı seçtiğinde bir sonraki soruya geçilir.
+Soru Geçişleri: Kullanıcı doğru/yanlış cevabı seçtiğinde veya süre dolduğunda bir sonraki soruya geçilir.
 
-Quiz Tamamlanması: Tüm sorular cevaplandığında veya süre dolduğunda, sonuç ekranı (Toast Component) gösterilir.
+Testin Tamamlanması: Tüm sorular cevaplandığında veya süre dolduğunda, sonuç ekranı (Toast Component) gösterilir.
 
-Quiz Yeniden Başlatma: Kullanıcı, sonuç ekranında "Restart Quiz" butonuna tıklayarak quiz'i yeniden başlatabilir.
+Testi Yeniden Başlatma: Kullanıcı, sonuç ekranındaki butona tıklayarak testi yeniden başlatabilir.
