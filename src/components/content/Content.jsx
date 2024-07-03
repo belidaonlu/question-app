@@ -1,6 +1,7 @@
 import "./Content.css"
 
-//soruları ve seçenekleri göster. Seçenekler, showOptions değişkenine bağlı olarak görünsun. her seçenek, tıklandığında checkLi fonksiyonunu cagirsin.
+//Show questions and options.
+//Let the options appear based on the showOptions variable. Each option calls the checkLi function when clicked.
 function Content({ index, data, checkLi, showOptions  }) {
   return (
     <div className='content'>
