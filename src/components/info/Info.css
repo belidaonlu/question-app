@@ -67,7 +67,7 @@
 }
   
 .loader:before {
-    content:"Lutfen Bekle..."
+    content:"Lütfen Bekle..."
 }
   
 @keyframes l2 {to{background-size: 100% 5px}}
