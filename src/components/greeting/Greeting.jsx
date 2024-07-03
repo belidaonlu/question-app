@@ -1,6 +1,6 @@
 import "./Greeting.css"
 
-//quiz başlamadan önce kullanıcının karşısına karşılama ekranı çıksin: "start Quiz" butonuna tıklandığında, setIsPlaying fonksiyonunu çağırarak quiz'i başlatsin:
+//Show the user a welcome screen before the quiz starts:
 function Greeting({ setIsPlaying }) {
   const handleStart = () => {
     setIsPlaying(true);
