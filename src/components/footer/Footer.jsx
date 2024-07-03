@@ -1,6 +1,6 @@
 import "./Footer.css"
 
-//kaçıncı soruda olunduğunu ve toplam kaç soru olduğunu göster:
+//Show which question you are at and how many questions there are in total:
 function Footer({ index, questions }) {
   return (
     <footer className='footer'>
