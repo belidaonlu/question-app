@@ -1,6 +1,6 @@
 import "./Toast.css"
 
-// quiz tamamlandığında kullanıcıya sonucu göster (doğru, yanlış, bos) ve quiz'i yeniden başlatabilmek için bir buton olsun:
+// show result to user when quiz is completed/restart quiz:
 function Toast({ questions, showToast, correctAnswers, wrongAnswers,  handleRestart  }) {
 
   const unanswered = questions.length - (correctAnswers + wrongAnswers);
