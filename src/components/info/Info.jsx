@@ -1,6 +1,6 @@
 import "./Info.css"
 
-//quiz sırasında çeşitli durumlar ve mesajlar gosterilsin: bekle/cevaplayabilirsin/tamamlandi seklinde.
+//Show various statuses and messages during the quiz: wait/you can answer/done.
 function Info({ showWait, showAnswer, showCompete, timeControl }) {
   return (
     <div className="info">
